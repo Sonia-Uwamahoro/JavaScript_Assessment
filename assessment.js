@@ -85,7 +85,7 @@ for(y of 2000 >= y <= 2023){
 // 4. Given a range of numbers from 0 to 100, console”Fizz” if the numbers are divisible by 3,
 // “Buzz” if the numbers are divisible by 5, and “FizzBuzz” if divisible by both 3 and 5.
 
-for(x of 1 >= 100){
+for(x of 1 >= x <= 100){
    if(x %3 === 0){
     console.log("fizz");
    }
